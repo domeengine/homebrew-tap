@@ -4,11 +4,10 @@
 class Dome < Formula
   desc "The comfortable framework for making games in Wren."
   homepage "https://domeengine.com"
-  url "https://github.com/avivbeeri/dome/archive/v1.3.0.tar.gz"
+  url "https://github.com/avivbeeri/dome.git", :using => :git, :tag => "v1.3.0"
   version "1.3.0"
   sha256 ""
   license "MIT"
-  head "https://github.com/avivbeeri/dome.git", :tag => "v1.3.0"
   depends_on "sdl2"
   
   def install
