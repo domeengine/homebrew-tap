@@ -1,7 +1,7 @@
 # Documentation: https://docs.brew.sh/Formula-Cookbook
 #                https://rubydoc.brew.sh/Formula
 # PLEASE REMOVE ALL GENERATED COMMENTS BEFORE SUBMITTING YOUR PULL REQUEST!
-class DOME < Formula
+class Dome < Formula
   desc "The comfortable framework for making games in Wren."
   homepage "https://domeengine.com"
   url "https://github.com/avivbeeri/dome/releases/latest/download/"
