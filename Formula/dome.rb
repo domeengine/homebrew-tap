@@ -4,7 +4,7 @@
 class Dome < Formula
   desc "The comfortable framework for making games in Wren."
   homepage "https://domeengine.com"
-  url "https://github.com/avivbeeri/dome/releases/download/v1.3.0/v1.3.0.tar.gz"
+  url "https://github.com/avivbeeri/dome/archive/v1.3.0.tar.gz"
   version "1.3.0"
   sha256 ""
   license "MIT"
