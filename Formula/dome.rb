@@ -4,13 +4,12 @@
 class Dome < Formula
   desc "The comfortable framework for making games in Wren."
   homepage "https://domeengine.com"
-  url "https://github.com/avivbeeri/dome/archive/v1.3.0.tar.gz"
+  url "https://github.com/avivbeeri/dome/releases/download/v1.3.0/dome-1.3.0-macosx-x64.zip"
   version "1.3.0"
   sha256 ""
   license "MIT"
 
   def install
-    system "make"
     bin.install "dome"
   end
 
