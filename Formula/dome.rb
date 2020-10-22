@@ -11,7 +11,7 @@ class dome < Formula
 
   def install
     system "make"
-    cp_r "dome" bin/"dome"
+    bin.install "dome"
   end
 
   test do
